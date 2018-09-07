@@ -119,6 +119,8 @@
 <script type='text/javascript' src="js/jquery.nicescroll.min.js"></script>
 <script type="text/javascript" src="js/datatables.min.js"></script>
 <script type="text/javascript" src="js/fixedColumns.bootstrap.min.js"></script>
+<script type="text/javascript" src="js/plugin.js"></script>
+<script type="text/javascript" src="js/drag.js"></script>
 <script type='text/javascript' src="js/script.js"></script>
 </body>
 </html>

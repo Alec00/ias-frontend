@@ -18,7 +18,7 @@
 							</div>
 
 							<div class="form-group">
-								<button type="submit" class="btn btn_grey create_doc_btn">Шукати</button>
+								<button type="submit" class="btn disabled create_doc_btn" disabled>Шукати</button>
 							</div>
 						</form>
 					</div>
