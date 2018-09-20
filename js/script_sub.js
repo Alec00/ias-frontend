@@ -81,4 +81,14 @@ jQuery(document).ready(function ($) {
         }        
     });
 	
+	//SHOW HIDE USE BLOCK
+	$('#page_use').on('click', function () {
+		$(this).hide();
+        $('.page_use_block').show();
+    });
+
+	$('.page_use_block_close').on('click', function () {
+        $('.page_use_block').hide();
+    });
+
 });

@@ -154,7 +154,7 @@
 									</div>
 								</form>
 							</div>
-							<div class="tab-pane faden" id="fiz">
+							<div class="tab-pane faden" id="fiz_pasp">
 								<form action="#">
 									<div class="form-group required">
 										<label class="control-label" for="fiz_pasp">Серія та номер паспорта фізичної особи</label>

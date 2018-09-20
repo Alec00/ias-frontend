@@ -477,6 +477,76 @@
     line-height: 1;
 	font-size: 9px;
 }
+.page_head{
+	position: relative;
+}
+#page_use{
+	position: absolute;
+	top: -51px;
+	right: 0;
+	z-index: 10;
+
+}
+.btn_link_icon {
+    padding: 9px 11px 10px 40px;
+    font-size: 12px;
+    font-weight: 700;
+    position: relative;
+    white-space: normal;
+    text-align: left;
+}
+.btn_link_icon:before {
+    text-decoration: none;
+    font-size: 18px;
+    top: 6px;
+    position: absolute;
+    left: 11px;
+}
+.btn_link_icon.icon-info:before {
+    color: #ffdc1a;
+}
+.page_use_block{
+	border-radius: 3px;
+    background-color: rgba(255, 220, 26, 0.15);
+    padding: 22px 155px 23px 52px;
+    font-size: 14px;
+    line-height: 1.36;
+    letter-spacing: -0.2px;
+    color: #728394;
+    position: relative;
+    margin-bottom: 50px;
+	margin-top: -20px;
+}
+.page_use_block:before{
+    color: #ffdc1a;
+    content: '\e822';
+    font-family: "icons";
+    font-size: 18px;
+    top: 19px;
+    position: absolute;
+    left: 22px;
+}
+.page_use_block .btitle{
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: -0.2px;
+	color: #2c3e50;
+	margin: 0 0 5px;
+}
+.page_use_block_close {
+    color: #2c3e50;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    right: 15px;
+    top: 15px;
+    background: none;
+    border: 0;
+    z-index: 2;
+    font-size: 17px;
+}
 
 @media (max-width: 1199px) {
 	.three_tab>li {
@@ -491,6 +561,12 @@
 	}
 	.add_sub_body .bootstrap-select .btn {
 		white-space: nowrap;
+	}
+	#page_use {
+		top: -67px;
+	}
+	.page_use_block {
+		padding: 22px 52px 23px 52px;
 	}
 }
 @media (max-width: 991px){
@@ -533,6 +609,16 @@
 	.add_sub_title>a {
 		font-size: 16px;
 	}
+	#page_use {
+		top: -31px;
+	}
+	.page_use_block {
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	.page_head {
+		padding-top: 20px;
+	}
 }
 @media (max-width: 467px){
 	.change_tabs.nav-tabs>li>a {
@@ -542,5 +628,8 @@
 	}
 	.inline>.checkbox-group {
 		margin-right: 10px;
+	}
+	.btn_link_icon {
+		padding: 9px 10px 10px 38px;
 	}
 }

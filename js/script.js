@@ -359,6 +359,17 @@ jQuery(document).ready(function ($) {
     });
     progress_circle.circularProgress('animate', 100, 2000);
 
+	//SHOW HIDE USE BLOCK
+	$('#page_use').on('click', function () {
+		$(this).hide();
+        $('.page_use_block').show();
+    });
+
+	$('.page_use_block_close').on('click', function () {
+        $('.page_use_block').hide();
+		$('#page_use').show();
+    });
+
 });
 
 //SCROLL UP SHOW

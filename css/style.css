@@ -2411,6 +2411,7 @@ tr[id^=expand-row-column] td:last-child:before,
 /*creat doc*/
 .page_section {
 	padding: 136px 0 0;
+	position: relative;
 }
 .user_nav.side_user_nav {
 	margin: 0 0 15px;
