@@ -1,22 +1,43 @@
 
+<!--start_banner-->
+<section class="start_banner">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="news_content start_box">
+					<div class="row">
+						<div class="col-md-8 start_box_content">
+							<img src="img/start-business.svg" alt="" width="96" height="45">
+							<div class="start_title">Зрозумілі кроки для відкриття бізнесу</div>
+							<div class="status_date">Більше ніж 100 кейсів</div>
+						</div>
+
+						<div class="col-md-4 start_box_btn">
+							<button class="btn btn-orange">Знайти бізнес для себе</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
 <!--sponsors-->
 <section class="sponsors">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 col-sm-3 col-md-4">
+			<div class="col-xs-12 text-center">
 				<a href="http://drs.gov.ua/" target="_blank">
-					<img src="img/drs.png" srcset="img/drs@2x.png 2x,		 img/drs@3x.png 3x" alt="Державна регуляторна служба України" class="img-responsive">
+					<img src="img/drs.png" srcset="img/drs@2x.png 2x, img/drs@3x.png 3x" alt="Державна регуляторна служба України" class="">
 				</a>
-			</div>
-			<div class="col-xs-12 col-sm-5 col-md-4">
 				<a href="http://me.gov.ua/" target="_blank">
-					<img src="img/sponsor2.png" srcset="img/sponsor2@2x.png 2x, img/sponsor2@3x.png 3x" alt="Міністерство економічного розвитку і торгівлі України" class="img-responsive center-block">
+					<img src="img/sponsor2.png" srcset="img/sponsor2@2x.png 2x, img/sponsor2@3x.png 3x" alt="Міністерство економічного розвитку і торгівлі України" class="">
 				</a>
-			</div>
-			<div class="col-xs-12 col-sm-4">
 				<a href="http://brdo.com.ua" target="_blank">
-					<img src="img/sponsor3.png" srcset="img/sponsor3@2x.png 2x, img/sponsor3@3x.png 3x" alt="Офіс ефективного регулювання" class="img-responsive pull-right">
+					<img src="img/sponsor3.png" srcset="img/sponsor3@2x.png 2x, img/sponsor3@3x.png 3x" alt="Офіс ефективного регулювання" class="">
 				</a>
+				<a href="#" target="_blank"><img class="" src="img/logo-kn-eng.svg" alt=""></a>
+				<a href="https://opendatabot.ua/" target="_blank"><img class="" src="img/opendatabot.png" srcset="img/opendatabot@2x.png 2x, img/opendatabot@3x.png 3x" alt="Опендатабот - відкриваємо Україну"></a>
 			</div>
 		</div>
 	</div>
